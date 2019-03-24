@@ -2,7 +2,7 @@ import { Promise } from "es6-promise";
 // time = millisecond
 export const sleep = (
   time: number = 0,
-  callback?: () => {}
+  callback?: Function
 ) => {
   return new Promise(resolve => {
     setTimeout(() => {
