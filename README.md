@@ -2,9 +2,9 @@
 
 memo
 
-```ts
+```js
 // time = millisecond
-export const sleep: (time: string, callback: () => {}) => Promise<any> = (time: number, callback: () => {}) => {
+export const sleep = (time, callback) => {
   return new Promise(resolve => {
     setTimeout(() => {
       resolve(callback())
