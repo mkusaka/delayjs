@@ -5,7 +5,9 @@
   "repository": "https://github.com/mkusaka/delayjs.git",
   "author": "mkusaka <hinoshita1992@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "es6-promise": "^4.2.6"
+  "dependencies": {},
+  "devDependencies": {
+    "ts-polyfill": "^3.3.3",
+    "typescript": "^3.3.4000"
   }
 }
