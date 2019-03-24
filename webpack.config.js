@@ -7,14 +7,22 @@ module.exports = {
     rules: [
       {
         test: /\.ts$/,
-        use: 'ts-loader',
+        use: [
+          {
+            loader: 'babel-loader'
+          },
+          {
+            loader: 'ts-loader'
+          }
+        ],
         exclude: /node_modules/
       }
     ]
   },
   resolve: {
     extensions: [
-      '.ts'
+      '.ts',
+      '.js'
     ]
   },
   output: {
