@@ -5,9 +5,17 @@
   "repository": "https://github.com/mkusaka/delayjs.git",
   "author": "mkusaka <hinoshita1992@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/polyfill": "^7.4.0"
+  },
   "devDependencies": {
-    "ts-polyfill": "^3.3.3",
-    "typescript": "^3.3.4000"
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "build": "webpack --colors --mode development",
+    "build:production": "webpack --colors --mode production"
   }
 }

@@ -1,4 +1,3 @@
-import 'ts-polyfill';
 // time = millisecond
 export const sleep = (
   time: number = 0,
