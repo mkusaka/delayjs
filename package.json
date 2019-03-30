@@ -5,11 +5,10 @@
   "repository": "https://github.com/mkusaka/delayjs.git",
   "author": "mkusaka <hinoshita1992@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "@babel/polyfill": "^7.4.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.4.0",
+    "@babel/polyfill": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "babel-loader": "^8.0.5",
     "ts-loader": "^5.3.3",
