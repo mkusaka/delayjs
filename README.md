@@ -2,13 +2,16 @@
 
 memo
 
-```js
+```ts
 // time = millisecond
-export const sleep = (time = 0, callback) => {
+export const sleep = (
+  time: number = 0,
+  callback?: Function
+) => {
   return new Promise(resolve => {
     setTimeout(() => {
-      resolve(callback && callback())
-    }, time)
-  })
-}
+      resolve(callback && callback());
+    }, time);
+  });
+};
 ```
